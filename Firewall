@@ -1,0 +1,57 @@
+1.What is a Firewall?
+
+A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predefined security rules.
+It acts as a barrier between a trusted internal network and an untrusted external network (such as the internet).
+Its main purpose is to prevent unauthorized access while allowing legitimate communication.
+
+2.Why Firewall is Important?
+
+Prevents unauthorized access
+Blocks malicious traffic
+Protects open ports and services
+Reduces risk of hacking attempts
+Controls data flow between networks
+
+3.Types of Firewalls
+
+1.Packet Filtering Firewall
+Examines packets based on:
+IP address
+Port number
+Protocol (TCP/UDP)
+Simple and fast
+Less secure compared to modern firewalls
+
+2.Stateful Inspection Firewall
+Tracks active connections
+Makes decisions based on connection state
+More secure than packet filtering
+
+3.Proxy Firewall (Application-Level Firewall)
+
+Acts as an intermediary between client and server
+Inspects application-layer traffic
+Provides higher security
+
+4.Next-Generation Firewall (NGFW)
+
+Includes advanced features like:
+Deep packet inspection
+Intrusion prevention
+Malware detection
+
+4.How a Firewall Works
+
+When data travels across a network:
+The firewall inspects the packet.
+It compares packet details with existing rules.
+If traffic matches an allow rule → It is permitted.
+If traffic matches a deny rule → It is blocked.
+
+5.Firewalls filter traffic based on:
+
+Source IP address
+Destination IP address
+Port number
+Protocol
+Direction (Inbound/Outbound)
